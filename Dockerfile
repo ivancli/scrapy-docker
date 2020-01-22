@@ -21,4 +21,4 @@ RUN pip3 install scrapy
 
 WORKDIR /app
 
-CMD ["scrapy"]
+CMD ["scrapy", "crawl"]
